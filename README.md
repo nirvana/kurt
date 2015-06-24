@@ -29,6 +29,7 @@ mobile and the desktop.
   mirrors exactly the JSON hierarchy.
 
     For example, a KTButton might look like this in JSON:
+    ```
     {
       "type" : "KTButton",
       "id" : "button22"
@@ -38,6 +39,7 @@ mobile and the desktop.
         "onRelease" : "/someapp/button22/released"
       }
     }
+    ```
 
   Thus your deliverable is a generic kurt renderer written in Unity (so a Unity project) and the
   description/documentation/specification of Kurt UI Widgets.
