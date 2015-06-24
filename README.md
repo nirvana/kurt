@@ -39,6 +39,12 @@ mobile and the desktop.
       }
     }
 
+  Thus your deliverable is a generic kurt renderer written in Unity (so a Unity project) and the
+  description/documentation/specification of Kurt UI Widgets.
+
+  I *strongly* recomend doing a complete pass on this with the minimal UI set, maybe just one. And
+  then expand it with more widgets over time.
+
   2. Build a simple application to render each of the objects in the library. So for the above button,
   the app would create a button at the specified location and size and when it was pressed, on release,
   the event would be sent to the given REST endpoint
@@ -71,4 +77,4 @@ mobile and the desktop.
 
 Unity: http://unity3d.com -- Just get the free version of Unity that's fine for our needs.
 
-Our design aesthetic is flat, simple and clean.  Think Apple, not Google matierals. 
+Our design aesthetic is flat, simple and clean.  Think Apple, not Google matierals.
